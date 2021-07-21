@@ -1,7 +1,7 @@
 import os
 
 # Config
-NODE_ID = int(os.getenv('NODE_ID'), '0')
+NODE_ID = int(os.getenv('NODE_ID'), '3')
 
 MU_SUFFIX = os.getenv('MU_SUFFIX', 'zhaoj.in')
 MU_REGEX = os.getenv('MU_REGEX', '%5m%id.%suffix')
@@ -9,8 +9,8 @@ MU_REGEX = os.getenv('MU_REGEX', '%5m%id.%suffix')
 SERVER_PUB_ADDR = os.getenv('SERVER_PUB_ADDR', '127.0.0.1')
 API_INTERFACE = os.getenv('API_INTERFACE', 'modwebapi')
 
-WEBAPI_URL = os.getenv('WEBAPI_URL', 'https://demo.sspanel.host')
-WEBAPI_TOKEN = os.getenv('WEBAPI_TOKEN', 'sspanel')
+WEBAPI_URL = os.getenv('WEBAPI_URL', 'http://srv19637.blue.kundencontroller.de:666')
+WEBAPI_TOKEN = os.getenv('WEBAPI_TOKEN', '123456')
 
 API_UPDATE_TIME = int(os.getenv('API_UPDATE_TIME', '60'))
 
